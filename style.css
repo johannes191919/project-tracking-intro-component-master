@@ -309,11 +309,6 @@
         text-transform: uppercase;
     }
 
-    .navbar_list_item:hover {
-        border-bottom: 1px solid hsl(230, 29%, 20%);
-
-
-    }
 
     .login {
         color: hsl(231, 7%, 65%);
@@ -560,12 +555,6 @@
 
 
     }
-
-    .login:hover {
-        border-bottom: 1px solid hsl(231, 7%, 65%);
-
-    }
-
 
 
     .dot {
