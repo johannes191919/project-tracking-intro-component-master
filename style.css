@@ -79,8 +79,8 @@
     .navbar_list {
         cursor: pointer;
         position: absolute;
-        margin-right: 18rem;
-        font-size: 1.7rem;
+        margin-right: 20rem;
+        font-size: 1.5rem;
         font-weight: 600;
         z-index: 2;
         right: 0;
@@ -90,7 +90,7 @@
 
     .navbar_list_item {
         display: inline-block;
-        margin-left: 1.8rem;
+        margin-left: 3.8rem;
         text-transform: uppercase;
     }
 
