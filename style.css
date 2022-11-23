@@ -1,0 +1,660 @@
+@media only screen and (min-width: 1170px) {
+
+
+
+
+    * {
+
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+    }
+
+    html {
+        font-size: 10px;
+        font-family: 'Barlow Condensed', sans-serif;
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 6.0rem;
+        margin-top: 1.0rem;
+    }
+
+    .container {
+        height: 80.0rem;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+
+    nav {
+        position: relative;
+        margin-top: 5.0rem;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    span {
+        font-size: 2.0rem;
+
+    }
+
+    button {
+        cursor: pointer;
+        text-transform: uppercase;
+        border: none;
+        background-color: hsl(0, 100%, 68%);
+        color: white;
+        padding: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-weight: 600;
+        border-radius: 7px;
+        font-size: 1.3rem;
+    }
+
+    button:hover {
+        filter: brightness(140%);
+    }
+
+
+    .navbar_item {
+        display: inline-block;
+    }
+
+    .navbar_list {
+        cursor: pointer;
+        position: absolute;
+        margin-right: 18rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        z-index: 2;
+        right: 0;
+        margin-top: 7.2px;
+
+    }
+
+    .navbar_list_item {
+        display: inline-block;
+        margin-left: 1.8rem;
+        text-transform: uppercase;
+    }
+
+    .navbar_list_item:hover {
+        border-bottom: 1px solid hsl(230, 29%, 20%);
+
+
+    }
+
+    .login {
+        color: hsl(231, 7%, 65%);
+
+
+    }
+
+    .login:hover {
+        border-bottom: 1px solid hsl(231, 7%, 65%);
+
+    }
+
+
+
+    .dot {
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 10px;
+        background-color: hsl(231, 7%, 65%);
+        margin-bottom: 3.2px;
+    }
+
+    #pic_1 {
+        position: absolute;
+        top: 27%;
+        left: 52%;
+        width: 95rem;
+
+    }
+
+    #background_image {
+
+        position: absolute;
+        left: 52%;
+        top: 0%;
+        width: 721px;
+        height: 400px;
+        border-bottom-left-radius: 50px;
+        background-color: hsl(207, 33%, 95%);
+    }
+
+    .page_left {
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: 18rem;
+    }
+
+    .navbar_brand {
+        margin-left: 16rem;
+    }
+
+    .gray {
+        text-transform: uppercase;
+        color: hsl(231, 7%, 65%);
+        font-size: 2.0rem;
+        margin-left: 2.0rem;
+        letter-spacing: 0.2rem;
+    }
+
+    #new {
+        text-transform: uppercase;
+        font-weight: 600;
+
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #first_p {
+        font-size: 2.1rem;
+        color: hsl(230, 11%, 40%);
+        margin-bottom: 3.0rem;
+        margin-top: 3.0rem;
+
+    }
+
+    .left_page_last {
+        display: inline-block;
+        padding: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width:1170px) and (min-width:376px) {
+
+    * {
+
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+    }
+
+    html {
+        font-size: 8px;
+        font-family: 'Barlow Condensed', sans-serif;
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 6.0rem;
+        margin-top: 1.0rem;
+    }
+
+    .container {
+        height: 110.0rem;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    nav {
+        position: relative;
+        margin-top: 5.0rem;
+    }
+
+
+    .close {
+        margin-right: 6.0rem;
+        z-index: 2;
+        margin-top: 3px;
+
+        width: 3.5rem;
+        height: 3.0rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    .menu {
+        margin-right: 6.0rem;
+        z-index: 2;
+        margin-top: 3px;
+
+        width: 4.0rem;
+        height: 3.0rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    span {
+        font-size: 2.0rem;
+
+    }
+
+    button {
+        cursor: pointer;
+        text-transform: uppercase;
+        border: none;
+        background-color: hsl(0, 100%, 68%);
+        color: white;
+        padding: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-weight: 600;
+        border-radius: 7px;
+        font-size: 1.3rem;
+    }
+
+    button:hover {
+        filter: brightness(140%);
+    }
+
+
+    .navbar_item {
+        display: inline-block;
+
+    }
+
+    .navbar_list {
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        background-color: white;
+        width: 55.0rem;
+        left: 0;
+        right: 0;
+        font-size: 1.7rem;
+        font-weight: 600;
+        z-index: 2;
+        right: 0;
+        margin-top: 30px;
+        display: none;
+    }
+
+    .navbar_list_item {
+        font-size: 2.5rem;
+
+        padding: 3.0rem;
+
+        margin-left: 1.8rem;
+        text-transform: uppercase;
+    }
+
+    .navbar_list_item:hover {
+        border-bottom: 1px solid hsl(230, 29%, 20%);
+
+
+    }
+
+    .login {
+        color: hsl(231, 7%, 65%);
+
+
+    }
+
+    .login:hover {
+        border-bottom: 1px solid hsl(231, 7%, 65%);
+
+    }
+
+
+
+    .dot {
+
+        background-color: hsl(231, 7%, 65%);
+        margin-bottom: 3.2px;
+        margin-left: 0rem;
+        height: 1px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 70%;
+        margin: auto;
+
+    }
+
+    #pic_1 {
+        position: absolute;
+        top: 9%;
+
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 114rem;
+    }
+
+    #background_image {
+
+        position: absolute;
+        left: 52%;
+        top: 0%;
+        width: 100rem;
+        height: 65.0rem;
+        border-bottom-left-radius: 50px;
+        background-color: hsl(207, 33%, 95%);
+    }
+
+    .page_left {
+        position: absolute;
+        width: 45rem;
+        margin: auto;
+        left: 0;
+        right: 0;
+
+        margin-top: 65rem;
+    }
+
+    .navbar_brand {
+        margin-left: 6rem;
+        height: 4.0rem;
+        width: 4.0rem;
+    }
+
+    .gray {
+        text-transform: uppercase;
+        color: hsl(231, 7%, 65%);
+        font-size: 2.0rem;
+        margin-left: 2.0rem;
+        letter-spacing: 0.2rem;
+    }
+
+    #new {
+        text-transform: uppercase;
+        font-weight: 600;
+
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #first_p {
+        font-size: 2.1rem;
+        color: hsl(230, 11%, 40%);
+        margin-bottom: 3.0rem;
+        margin-top: 3.0rem;
+
+    }
+
+    .left_page_last {
+        display: inline-block;
+        padding: 1.5rem;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:378px) {
+
+    * {
+
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+    }
+
+    html {
+        font-size: 6px;
+        font-family: 'Barlow Condensed', sans-serif;
+
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 6.0rem;
+        margin-top: 1.0rem;
+    }
+
+    .container {
+        height: 110.0rem;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    nav {
+        position: relative;
+        margin-top: 5.0rem;
+    }
+
+
+    .close {
+        margin-right: 6.0rem;
+        z-index: 2;
+        margin-top: 3px;
+
+        width: 3.5rem;
+        height: 3.0rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    .menu {
+        margin-right: 6.0rem;
+        z-index: 2;
+        margin-top: 3px;
+
+        width: 4.0rem;
+        height: 3.0rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    span {
+        font-size: 2.0rem;
+
+    }
+
+    button {
+        cursor: pointer;
+        text-transform: uppercase;
+        border: none;
+        background-color: hsl(0, 100%, 68%);
+        color: white;
+        padding: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-weight: 600;
+        border-radius: 7px;
+        font-size: 1.3rem;
+    }
+
+    button:hover {
+        filter: brightness(140%);
+    }
+
+
+    .navbar_item {
+        display: inline-block;
+
+    }
+
+    .navbar_list {
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        background-color: white;
+        width: 55.0rem;
+        left: 0;
+        right: 0;
+        font-size: 1.7rem;
+        font-weight: 600;
+        z-index: 2;
+        right: 0;
+        margin-top: 30px;
+        display: none;
+    }
+
+    .navbar_list_item {
+        font-size: 2.5rem;
+
+        padding: 3.0rem;
+
+        margin-left: 1.8rem;
+        text-transform: uppercase;
+    }
+
+    .navbar_list_item:hover {
+        border-bottom: 1px solid hsl(230, 29%, 20%);
+
+
+    }
+
+    .login {
+        color: hsl(231, 7%, 65%);
+
+
+    }
+
+    .login:hover {
+        border-bottom: 1px solid hsl(231, 7%, 65%);
+
+    }
+
+
+
+    .dot {
+
+        background-color: hsl(231, 7%, 65%);
+        margin-bottom: 3.2px;
+        margin-left: 0rem;
+        height: 1px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 70%;
+        margin: auto;
+
+    }
+
+    #pic_1 {
+        position: absolute;
+        top: 16%;
+        left: 3%;
+        width: 83rem;
+
+    }
+
+    #background_image {
+
+        position: absolute;
+        left: 52%;
+        top: 0%;
+        width: 70.2rem;
+        height: 65.0rem;
+        border-bottom-left-radius: 50px;
+        background-color: hsl(207, 33%, 95%);
+    }
+
+    .page_left {
+        position: absolute;
+        margin-left: 7.0rem;
+
+
+
+
+        margin-top: 55rem;
+    }
+
+    .navbar_brand {
+        margin-left: 6rem;
+        height: 4.0rem;
+        width: 4.0rem;
+    }
+
+    .gray {
+        text-transform: uppercase;
+        color: hsl(231, 7%, 65%);
+        font-size: 2.0rem;
+        margin-left: 2.0rem;
+        letter-spacing: 0.2rem;
+    }
+
+    #new {
+        text-transform: uppercase;
+        font-weight: 600;
+
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #first_p {
+        font-size: 2.1rem;
+        color: hsl(230, 11%, 40%);
+        margin-bottom: 3.0rem;
+        margin-top: 3.0rem;
+
+    }
+
+    .left_page_last {
+        display: inline-block;
+        padding: 1.5rem;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+}
